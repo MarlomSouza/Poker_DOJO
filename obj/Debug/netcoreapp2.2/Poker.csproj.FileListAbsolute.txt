@@ -1,0 +1,14 @@
+c:\DIGIX\Poker\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+c:\DIGIX\Poker\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+c:\DIGIX\Poker\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+c:\DIGIX\Poker\bin\Debug\netcoreapp2.2\Poker.deps.json
+c:\DIGIX\Poker\bin\Debug\netcoreapp2.2\Poker.runtimeconfig.json
+c:\DIGIX\Poker\bin\Debug\netcoreapp2.2\Poker.runtimeconfig.dev.json
+c:\DIGIX\Poker\bin\Debug\netcoreapp2.2\Poker.dll
+c:\DIGIX\Poker\bin\Debug\netcoreapp2.2\Poker.pdb
+c:\DIGIX\Poker\obj\Debug\netcoreapp2.2\Poker.csprojAssemblyReference.cache
+c:\DIGIX\Poker\obj\Debug\netcoreapp2.2\Poker.csproj.CoreCompileInputs.cache
+c:\DIGIX\Poker\obj\Debug\netcoreapp2.2\Poker.AssemblyInfoInputs.cache
+c:\DIGIX\Poker\obj\Debug\netcoreapp2.2\Poker.AssemblyInfo.cs
+c:\DIGIX\Poker\obj\Debug\netcoreapp2.2\Poker.dll
+c:\DIGIX\Poker\obj\Debug\netcoreapp2.2\Poker.pdb
