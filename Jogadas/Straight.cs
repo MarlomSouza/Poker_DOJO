@@ -1,5 +1,4 @@
 using System;
-using Poker.Jogadas.Helpers;
 
 namespace Poker.Jogadas
 {
@@ -14,7 +13,7 @@ namespace Poker.Jogadas
 
         public bool EhValida()
         {
-            mao.Crescente();
+            ordernarCrescenteMao();
             for (int i = 1; i < mao.Length; i++)
             {
                 if (mao[i - 1] + 1 != mao[i])
@@ -24,9 +23,19 @@ namespace Poker.Jogadas
             return true;
         }
 
-        private void ordernarMao()
+        private void ordernarCrescenteMao()
         {
-            
+            for (int i = 0; i < mao.Length - 1; i++)
+            {
+                for (int j = i + 1; j < mao.Length; j++)
+                {
+                    if (mao[i] <= mao[j]) continue;
+
+                    var maiorValor = mao[i];
+                    mao[i] = mao[j];
+                    mao[j] = maiorValor;
+                }
+            }
         }
     }
 }

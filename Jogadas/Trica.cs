@@ -1,4 +1,7 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using Poker.Jogadas.Helpers;
 
 namespace Poker.Jogadas
 {
@@ -10,32 +13,21 @@ namespace Poker.Jogadas
 
         public bool EhValida()
         {
-            var valorPrimeiraSequencia = mao[0];
-            var valorSegundaSequencia = 0;
-
-            var contadorPrimeiraSequencia = 0;
-            var contadorSegundaSequencia = 0;
+            var repeticao = new Dictionary<int, int>();
 
             for (int i = 0; i < mao.Length; i++)
             {
-                var existemMaisDeDuasSeguencias = valorSegundaSequencia != 0 && mao[i] != valorPrimeiraSequencia && mao[i] != valorSegundaSequencia;
-                if (existemMaisDeDuasSeguencias)
+                int quantidadeRepeticao = quantidadeRepeticao = repeticao.GetValueOrDefault(mao[i], 1);
+                if (quantidadeRepeticao > 3)
                     return false;
 
-                if (valorSegundaSequencia == 0 && mao[i] != valorPrimeiraSequencia)
-                    valorSegundaSequencia = mao[i];
-
-                if (valorPrimeiraSequencia == mao[i])
-                    contadorPrimeiraSequencia++;
-
-                if (valorSegundaSequencia == mao[i])
-                    contadorSegundaSequencia++;
-
-                if ((contadorPrimeiraSequencia | contadorSegundaSequencia) > 3)
-                    return false;
+                if (repeticao.ContainsKey(mao[i]))
+                    repeticao[mao[i]] = ++quantidadeRepeticao;
+                else
+                    repeticao.Add(mao[i], quantidadeRepeticao);
             }
 
-            return true;
+            return repeticao.Count == 3 && repeticao.Values.Any(v => v == 3);
         }
     }
 }
