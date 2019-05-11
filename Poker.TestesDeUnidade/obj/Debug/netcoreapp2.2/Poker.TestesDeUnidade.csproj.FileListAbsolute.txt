@@ -1,0 +1,4 @@
+C:\DIGIX\Poker\Poker.TestesDeUnidade\obj\Debug\netcoreapp2.2\Poker.TestesDeUnidade.csprojAssemblyReference.cache
+C:\DIGIX\Poker\Poker.TestesDeUnidade\obj\Debug\netcoreapp2.2\Poker.TestesDeUnidade.csproj.CoreCompileInputs.cache
+C:\DIGIX\Poker\Poker.TestesDeUnidade\obj\Debug\netcoreapp2.2\Poker.TestesDeUnidade.AssemblyInfoInputs.cache
+C:\DIGIX\Poker\Poker.TestesDeUnidade\obj\Debug\netcoreapp2.2\Poker.TestesDeUnidade.AssemblyInfo.cs
