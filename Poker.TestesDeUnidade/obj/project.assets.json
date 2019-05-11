@@ -1673,6 +1673,16 @@
         "build": {
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "Poker.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Poker.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Poker.Dominio.dll": {}
+        }
       }
     }
   },
@@ -5824,12 +5834,18 @@
         "xunit.runner.visualstudio.2.4.0.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "Poker.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../Poker.Dominio/Poker.Dominio.csproj",
+      "msbuildProject": "../Poker.Dominio/Poker.Dominio.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "Microsoft.NET.Test.Sdk >= 15.9.0",
       "Microsoft.NETCore.App >= 2.2.0",
+      "Poker.Dominio >= 1.0.0",
       "xunit >= 2.4.0",
       "xunit.runner.visualstudio >= 2.4.0"
     ]
@@ -5863,7 +5879,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\DIGIX\\Poker\\Poker.Dominio\\Poker.Dominio.csproj": {
+              "projectPath": "C:\\DIGIX\\Poker\\Poker.Dominio\\Poker.Dominio.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

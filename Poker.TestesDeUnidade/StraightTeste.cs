@@ -1,5 +1,4 @@
 using Poker.Dominio.Jogadas;
-using Poker.Jogadas;
 using Xunit;
 
 namespace Poker.TestesDeUnidade

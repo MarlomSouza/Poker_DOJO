@@ -1,4 +1,4 @@
-namespace Poker.Jogadas.Helpers
+namespace Poker.Dominio.Helpers
 {
     public static class Ordenar
     {

@@ -1,5 +1,4 @@
 using Poker.Dominio.Jogadas;
-using Poker.Jogadas;
 using Xunit;
 
 namespace Poker.TestesDeUnidade
@@ -14,7 +13,7 @@ namespace Poker.TestesDeUnidade
         public void Deve_ser_uma_jogada_valida(int[] mao)
         {
             //When
-            var jogada = new Trica(mao);
+            var jogada = new Trinca(mao);
             //Then
             Assert.True(jogada.EhValida());
         }
@@ -27,7 +26,7 @@ namespace Poker.TestesDeUnidade
         public void Nao_deve_ser_uma_jogada_valida(int[] mao)
         {
             //When
-            var jogada = new Trica(mao);
+            var jogada = new Trinca(mao);
             //Then
             Assert.False(jogada.EhValida());
         }
