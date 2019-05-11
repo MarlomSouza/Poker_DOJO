@@ -14,14 +14,16 @@ namespace Poker.Dominio.Jogadas
 
             for (int i = 0; i < Mao.Length; i++)
             {
-                int quantidadeRepeticao = quantidadeRepeticao = repeticao[Mao[i]];
-                if (quantidadeRepeticao > 3)
+                if (repeticao.Values.Any(carta => carta > 3))
                     return false;
 
                 if (repeticao.ContainsKey(Mao[i]))
-                    repeticao[Mao[i]] = ++quantidadeRepeticao;
+                {
+                    var quantidadeRepeticaoCarta = repeticao[Mao[i]];
+                    repeticao[Mao[i]] = ++quantidadeRepeticaoCarta;
+                }
                 else
-                    repeticao.Add(Mao[i], quantidadeRepeticao);
+                    repeticao.Add(Mao[i], 1);
             }
 
             return repeticao.Count == 3 && repeticao.Values.Any(v => v == 3);

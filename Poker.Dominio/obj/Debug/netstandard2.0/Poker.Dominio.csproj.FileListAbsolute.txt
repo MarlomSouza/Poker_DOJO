@@ -1,9 +1,0 @@
-C:\DIGIX\Poker\Poker.Dominio\obj\Debug\netstandard2.0\Poker.Dominio.csprojAssemblyReference.cache
-C:\DIGIX\Poker\Poker.Dominio\obj\Debug\netstandard2.0\Poker.Dominio.csproj.CoreCompileInputs.cache
-C:\DIGIX\Poker\Poker.Dominio\obj\Debug\netstandard2.0\Poker.Dominio.AssemblyInfoInputs.cache
-C:\DIGIX\Poker\Poker.Dominio\obj\Debug\netstandard2.0\Poker.Dominio.AssemblyInfo.cs
-C:\DIGIX\Poker\Poker.Dominio\bin\Debug\netstandard2.0\Poker.Dominio.deps.json
-C:\DIGIX\Poker\Poker.Dominio\bin\Debug\netstandard2.0\Poker.Dominio.dll
-C:\DIGIX\Poker\Poker.Dominio\bin\Debug\netstandard2.0\Poker.Dominio.pdb
-C:\DIGIX\Poker\Poker.Dominio\obj\Debug\netstandard2.0\Poker.Dominio.dll
-C:\DIGIX\Poker\Poker.Dominio\obj\Debug\netstandard2.0\Poker.Dominio.pdb
